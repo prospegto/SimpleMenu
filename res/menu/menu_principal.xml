@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/mnOp1"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Opcion 1">
+    </item>
+    <item
+        android:id="@+id/mnOp2"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="Opcion 2">
+        <menu>
+            <item
+                android:id="@+id/submnOp1"
+                android:title="Opcion 2.1"/>
+            <item
+                android:id="@+id/submnOp2"
+                android:title="Opcion 2.2"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/mnOp3"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="Opcion 3">
+    </item>
+
+</menu>
